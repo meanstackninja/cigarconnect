@@ -1,29 +1,7 @@
-$( function() {
-    var availableTags = [
-      "ActionScript",
-      "AppleScript",
-      "Asp",
-      "BASIC",
-      "C",
-      "C++",
-      "Clojure",
-      "COBOL",
-      "ColdFusion",
-      "Erlang",
-      "Fortran",
-      "Groovy",
-      "Haskell",
-      "Java",
-      "JavaScript",
-      "Lisp",
-      "Perl",
-      "PHP",
-      "Python",
-      "Ruby",
-      "Scala",
-      "Scheme"
-    ];
-    $( "#locations" ).autocomplete({
-      source: availableTags
-    });
-  } );
+/* Create a cigar object */
+
+var cigar = {
+    brand: "Oliva",
+    type: "Serie V",
+    retailPrice: 9.99
+};
