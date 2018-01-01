@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Gudea);
+.jumbotron{
+    background-color:#488dd8;
+}
 .searchdeals{
     border-radius: 4px;
     background-color: white;
