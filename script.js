@@ -6,7 +6,8 @@ function Cigar(brand,type,price){
     this.price = price;
 }
 
-
+var oliva = new Cigar("Oliva", "Serie-V", 10.00);
+console.log(oliva);
 
 function Location(streetNum,streetName,city,state,zip,phoneNumber,siteUrl,bLounge,bInetAccess,hoursOfOperation){
     this.streetNum = streetNum;
