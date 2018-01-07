@@ -13,7 +13,7 @@ function Location(streetNum,streetName,city,state,zip,phoneNumber,siteUrl,bLoung
     this.state = state;
     this.zip = zip;
     this.phoneNumber = phoneNumber;
-    this.sitUrl = siteUrl;
+    this.siteUrl = siteUrl;
     this.bLounge = bLounge;
     this.bInetAccess = bInetAccess;
 
