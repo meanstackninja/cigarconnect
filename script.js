@@ -6,6 +6,8 @@ function Cigar(brand,type,price){
     this.price = price;
 }
 
+
+
 function Location(streetNum,streetName,city,state,zip,phoneNumber,siteUrl,bLounge,bInetAccess,hoursOfOperation){
     this.streetNum = streetNum;
     this.streetName = streetName;
@@ -24,5 +26,19 @@ function Location(streetNum,streetName,city,state,zip,phoneNumber,siteUrl,bLoung
 
 
 }
+
+//Create a Coupon Object constructor
+function Coupon(cigar,location, discountPercentage){
+    this.cigar = cigar;
+    this.location = location;
+    this.discountPercentage = discountPercentage;
+    this.applyDiscount = function(discountPercentage){
+        newPrice = cigar.price - (cigar.price * discountPercentage);
+    }    
+
+}
+
+
+//todo later, create 2 arrays one for Cigar and one for Location and store the objects you create into the arrays
 
 
