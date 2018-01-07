@@ -29,15 +29,22 @@ function Location(streetNum,streetName,city,state,zip,phoneNumber,siteUrl,bLoung
 }
 
 //Create a Coupon Object constructor
-function Coupon(cigar,location, discountPercentage){
+function Coupon(cigar,location,discountPercentage){
     this.cigar = cigar;
     this.location = location;
     this.discountPercentage = discountPercentage;
+    this.newPrice;
     this.applyDiscount = function(discountPercentage){
-        newPrice = cigar.price - (cigar.price * discountPercentage);
+        this.newPrice = cigar.price - (cigar.price * discountPercentage);
     }    
 
 }
+
+var Coupon = new Coupon(oliva,"Dummy Location for now", .10);
+Coupon.applyDiscount(this.discountPercentage);
+console.log(Coupon.newPrice);
+
+console.log(Coupon);
 
 
 //todo later, create 2 arrays one for Cigar and one for Location and store the objects you create into the arrays
