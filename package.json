@@ -1,0 +1,22 @@
+{
+  "name": "cigarconnect",
+  "version": "1.0.0",
+  "description": "Cigar Coupon and Cigar Shop Profile app",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PutMyRobeOnRITE/cigarconnect.git"
+  },
+  "keywords": [
+    "Cigars"
+  ],
+  "author": "Sal Allegra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PutMyRobeOnRITE/cigarconnect/issues"
+  },
+  "homepage": "https://github.com/PutMyRobeOnRITE/cigarconnect#readme"
+}
