@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/PutMyRobeOnRITE/cigarconnect/issues"
   },
-  "homepage": "https://github.com/PutMyRobeOnRITE/cigarconnect#readme"
+  "homepage": "https://github.com/PutMyRobeOnRITE/cigarconnect#readme",
+  "devDependencies": {
+    "mocha": "^4.1.0"
+  }
 }
