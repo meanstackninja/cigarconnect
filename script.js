@@ -7,7 +7,7 @@ function Cigar(brand,type,price){
 }
 
 var oliva = new Cigar("Oliva", "Serie-V", 10.00);
-console.log(oliva);
+// console.log(oliva);
 
 function Location(streetNum,streetName,city,state,zip,phoneNumber,siteUrl,bLounge,bInetAccess,hoursOfOperation){
     this.streetNum = streetNum;
@@ -42,11 +42,27 @@ function Coupon(cigar,location,discountPercentage){
 
 var Coupon = new Coupon(oliva,"Dummy Location for now", .10);
 Coupon.applyDiscount(this.discountPercentage);
-console.log(Coupon.newPrice);
+// console.log(Coupon.newPrice);
 
-console.log(Coupon);
+// console.log(Coupon);
 
 
 //todo later, create 2 arrays one for Cigar and one for Location and store the objects you create into the arrays
 
+//Practice the concept of closures
 
+function doMath(){
+    var a = 5;
+    var b = 7;
+
+    function multiply(){
+        var result = a*b;
+        return result;
+    }
+
+    return multiply;
+}
+
+var theResult = doMath();
+
+console.log(theResult());
