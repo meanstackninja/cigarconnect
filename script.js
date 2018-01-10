@@ -49,20 +49,4 @@ Coupon.applyDiscount(this.discountPercentage);
 
 //todo later, create 2 arrays one for Cigar and one for Location and store the objects you create into the arrays
 
-//Practice the concept of closures
-
-function doMath(){
-    var a = 5;
-    var b = 7;
-
-    function multiply(){
-        var result = a*b;
-        return result;
-    }
-
-    return multiply;
-}
-
-var theResult = doMath();
-
-console.log(theResult());
+console.log(navigator.appCodeName);
