@@ -1,3 +1,8 @@
+
+
+
+
+
 /* Create a cigar object constructor*/
 
 function Cigar(brand,type,price){
